@@ -1,6 +1,7 @@
 /* sets background as sf-skyline */
 html {
   background: url("images/sf-skyline-bw.png");
+  background-color: black;
   background-size: cover;
   height: 100%;
 }
@@ -9,7 +10,7 @@ h1 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   letter-spacing: 5px;
   color: #F0EFEB;
-  font-size: 50px;
+  font-size: 88px;
   font-weight: 100;
   padding: 5px;
 }
@@ -18,29 +19,35 @@ h1, nav {
   text-align: center;
 }
 
+a {
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #F0EFEB;
+}
+
 h2, h3 {
   letter-spacing: 2px;
   font-weight: 100;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 48px;
 }
 
 h3 {
-  font-size: 13px;
+  font-size: 30px;
 }
 
 /* sets the margins for article containers */
 article {
   color: #F0EFEB;
-  margin: 7% 15%;
+  margin: 5% 15%;
 }
 
 /* general font styling */
-p, li, a, footer {
+p, li, footer {
   letter-spacing: 2px;
-  font-size: 12px;
+  font-size: 20px;
   color: #F0EFEB;
 }
 
@@ -49,7 +56,7 @@ a:link {
   text-decoration: none;
   color: bisque;
   letter-spacing: 2px;
-  font-size: 12px;
+  font-size: 24px;
 }
 
 a:hover {
